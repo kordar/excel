@@ -6,6 +6,11 @@ use Yii;
 use yii\base\InvalidConfigException;
 use yii\i18n\Formatter;
 
+/**
+ * Class ExcelGridSheet
+ * @package kordar\excel
+ * @item *:ExcelGridSheet
+ */
 class ExcelGridSheet extends BaseListSheet
 {
     /**

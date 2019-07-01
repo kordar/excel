@@ -6,11 +6,16 @@ use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use yii\data\ArrayDataProvider;
 use yii\db\ActiveQueryInterface;
-use yii\grid\Column;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Inflector;
 
-class ExcelDataColumn extends Column
+/**
+ * Class ExcelDataColumn
+ * @package kordar\excel
+ * @item *:ExcelDataColumn
+ * @property array headerCellLabel
+ */
+class ExcelDataColumn extends \yii\grid\Column
 {
     /**
      * @var string the attribute name associated with this column. When neither [[content]] nor [[value]]
